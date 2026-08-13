@@ -1,5 +1,6 @@
 # TP2
 TP2 de ingenieria en computacion.
+
 Ejercicio 4.16 - Suma de N Números ⭐☆☆☆☆
 
 Leé un número N y calculá la suma de los primeros N números naturales.
