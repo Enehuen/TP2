@@ -10,16 +10,17 @@ https://github.com/Enehuen
 
 int main()
 {
-    int limite = 10;
-    int resultado;
-    for (int i = 1; i < (limite + 1); i++)
+    int numero;
+    printf("Ingrese hasta que numero desea encontrar numeros perfectos: ");
+    scanf(" %d",&numero);
+    for (int i = 1; i < numero; i++)
     {
-        printf("Tabla del %d\n",i);
-        for (int j = 1; j < (limite + 1); j++)
+        for (int j = 0; j < i; j++)
         {
-            resultado = i * j;
-            printf("[%d] x [%d] = %d\n",i, j, resultado);
+            
         }
+        
+        
     }
     
     return 0;

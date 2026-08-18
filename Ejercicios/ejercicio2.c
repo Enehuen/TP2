@@ -24,7 +24,7 @@ int main()
     }
     else if(numero1 < numero2)
     {
-        while (contador < numero2)
+        while (contador < (numero2 + 1))
         {
             
             if (numero1 % 2 == 0)
@@ -35,5 +35,6 @@ int main()
             contador++;
         }
     }   
+    printf("\nFin del programa!\n");
     return 0;
 }
