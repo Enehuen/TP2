@@ -10,5 +10,13 @@ https://github.com/Enehuen
 
 int main()
 {
-    
+    int altura = 5;
+    int contador = 0;
+    for (int i = 0; i < altura; i++)
+    {
+        for (int j = 0; j < altura; j++)
+        {
+            printf("*\n");
+        }
+    }
 }

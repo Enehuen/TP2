@@ -19,7 +19,7 @@ Generá los primeros N números de Fibonacci de forma iterativa. Los números de
 
 Ejercicio 4.29 - Números Perfectos ⭐⭐⭐⭐☆
 
-Encontrá todos los números perfectos hasta N. Un número es perfecto si la suma de sus divisores (excluyéndolo) es igual al número.
+Encontrá todos los números perfectos hasta N. Un número es perfecto si la suma de sus divisores  (excluyéndolo) es igual al número.
 
 Ejercicio 4.37 - Rombo ⭐⭐⭐⭐⭐
 

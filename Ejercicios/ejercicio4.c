@@ -21,7 +21,7 @@ int main()
         temp = numero1 + numero2;
         numero1 = numero2;
         numero2 = temp;
-        printf("SNumero de fibonacci %d: [%d]\n",i, temp);
+        printf("Numero de fibonacci %d: [%d]\n",i, temp);
     }    
     return 0;
 }
