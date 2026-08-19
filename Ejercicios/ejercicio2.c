@@ -9,29 +9,29 @@ https://github.com/Enehuen
 
 int main()
 {
-    int numero1;
-    int numero2;
+    int inicio;
+    int final;
     int contador = 0;
     int par = 0;
     printf("Numeros pares en rango\nIngrese el primer numero: ");
-    scanf("%d",&numero1);
+    scanf("%d",&inicio);
     printf("Ingrese el segundo numero: ");
-    scanf("%d",&numero2);
-    contador = numero1;
-    if (numero2 == numero1 || (numero1 == 0 && numero2 == 0))
+    scanf("%d",&final);
+    contador = inicio;
+    if (final == inicio)
     {
-            contador = numero2;
+        contador = final;
     }
-    else if(numero1 < numero2)
+    else if(inicio < final)
     {
-        while (contador < (numero2 + 1))
+        while (contador < (final + 1))
         {
             
-            if (numero1 % 2 == 0)
+            if (inicio % 2 == 0)
             {
-                printf("[%d]",numero1);
+                printf("[%d]",inicio);
             }
-            numero1++;
+            inicio++;
             contador++;
         }
     }   

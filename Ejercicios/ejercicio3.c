@@ -26,14 +26,11 @@ int main()
             printf("Numero incorrecto!\nIngrese nuevamente un numero menor a 101: ");
             scanf(" %d", &numero);
         }
-        
         else
         {
             printf("Numero ingresado correctamente!\n");
             bandera = false;
-        }
-        
+        }   
     }
-    
     return 0;
 }
